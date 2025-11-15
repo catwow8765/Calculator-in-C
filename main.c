@@ -8,7 +8,6 @@ void multiply(int a, int b) { printf("Result: %d\n", a * b); }
 void divide(int a, int b) { printf("Result: %d\n", a / b); }
 
 int main() {
-    int choice[] = {1, 2, 3, 4};
     int operation;
     int a, b;
     char stop;
