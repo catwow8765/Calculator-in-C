@@ -41,7 +41,7 @@ int main() {
         if (stop == 'y' || stop == 'Y') {
             continue;
         } else {
-            printf("Goodbye");
+            printf("Goodbye.");
             break;
         }
     }
