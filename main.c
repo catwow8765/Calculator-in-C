@@ -8,6 +8,7 @@ void multiply(int a, int b) { printf("Result: %d\n", a * b); }
 void divide(int a, int b) { printf("Result: %d\n", a / b); }
 
 int main() {
+    int choice[] = {1, 2, 3, 4};
     int operation;
     int a, b;
     char stop;
@@ -21,7 +22,12 @@ int main() {
         );
         printf("Choose an operation:");
         scanf("%d", &operation);
-        printf("choose a number:");
+
+        if (operation < 1 || operation > 4) {
+            printf("Wrong choice\n");
+            continue;
+        }
+    printf("choose a number:");
         scanf("%d", &a);
         printf("choose a another number:");
         scanf("%d", &b);
@@ -33,9 +39,6 @@ int main() {
             multiply(a, b);
         } else if (operation == 4) {
             divide(a, b);
-        } else if (operation < 1 || operation > 4) {
-            printf("Wrong choice\n");
-        }
         printf("Do you want to continue:");
         scanf(" %c", &stop);
         if (stop == 'y' || stop == 'Y') {
