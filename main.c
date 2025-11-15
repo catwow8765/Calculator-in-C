@@ -38,6 +38,7 @@ int main() {
             multiply(a, b);
         } else if (operation == 4) {
             divide(a, b);
+        }
         printf("Do you want to continue:");
         scanf(" %c", &stop);
         if (stop == 'y' || stop == 'Y') {
