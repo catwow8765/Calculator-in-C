@@ -1,2 +1,3 @@
 # Calculator-in-C
-hello
+
+This is my first project in C.
