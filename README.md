@@ -1,10 +1,10 @@
 # Calculator-in-C
 
 
-___________________
 
 This is my first project in C.
 
+________________________
 How to run this project:
 
 1.git clone https://github.com/catwow8765/Calculator-in-C.git
